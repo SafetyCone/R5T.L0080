@@ -1,7 +1,7 @@
 using System;
 using System.Threading.Tasks;
 
-using R5T.T0131;
+using R5T.T0241;
 using R5T.T0235.T000;
 
 
@@ -10,8 +10,8 @@ namespace R5T.L0080.O001
     /// <summary>
     /// Repsitory context operations (<see cref="IHasRepositoryName"/>, <see cref="IHasRepositoryOwnerName"/>).
     /// </summary>
-    [ValuesMarker]
-    public partial interface IRepositoryContextOperations : IValuesMarker
+    [ContextOperationsMarker]
+    public partial interface IRepositoryContextOperations : IContextOperationsMarker
     {
         public Task Display_ExistsRepository_ToConsole<TContext>(
             TContext context,

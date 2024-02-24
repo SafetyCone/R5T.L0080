@@ -10,15 +10,13 @@
     <Authors>DCoats</Authors>
     <Company>Rivet</Company>
     <Copyright>Copyright © Rivet 2024</Copyright>
-    <Description>Repository name and repository owner context operations library.</Description>
+    <Description>Repository operator context functionality (unspecified context type).</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.T0132\source\R5T.T0132\R5T.T0132.csproj" />
+    <ProjectReference Include="..\..\..\R5T.T0221\source\R5T.T0221\R5T.T0221.csproj" />
     <ProjectReference Include="..\..\..\R5T.T0235\source\R5T.T0235.T000\R5T.T0235.T000.csproj" />
-    <ProjectReference Include="..\..\..\R5T.T0241\source\R5T.T0241\R5T.T0241.csproj" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Code\Values\" />
   </ItemGroup>
 </Project>
